@@ -10,7 +10,7 @@
   "repository": "",
   "dependencies": {
     "coffee-script": "1.4.x",
-    "imagemagick": "git://github.com/rsms/node-imagemagick.git",
+    "imagemagick": "https://github.com/opencare/node-imagemagick",
     "knox": "0.8.x",
     "async": "0.1.x"
   },

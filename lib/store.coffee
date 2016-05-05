@@ -67,6 +67,7 @@ exports.S3Store = class S3Store
     @headers =
       'Content-Type': "image/#{@config.extension}"
       'x-amz-acl': 'public-read'
+    @headers['Cache-Control'] = "max-age=#{@config.maxAge}" if @config.maxAge
 
   ###
   Get relative file path on S3

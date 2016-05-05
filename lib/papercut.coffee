@@ -9,7 +9,8 @@ config = {
   process: 'resize'
   directory: '.'
   quality: 1,
-  custom: []
+  custom: [],
+  maxAge: 0
 }
 
 module.exports = papercut =
